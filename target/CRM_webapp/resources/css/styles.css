@@ -1,0 +1,88 @@
+html, body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 1.5rem 0;
+}
+
+:root {
+    --main: #4E8397;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main);
+}
+
+#container {
+    margin: auto;
+    width: 70%;
+}
+
+h1, h2, h3 {
+    color: var(--main);
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid gray;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+th {
+    border-bottom: 1px solid gray;
+    background-color: var(--main);
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+tr {
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #FFFFFF
+}
+
+tr:nth-child(odd) {
+    background: #BBBBBB
+}
+
+input[type="text"] {
+    border-radius: 7px;
+    border: 1px solid #666;
+    padding: 7px;
+    margin: 1rem 0.6rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+label {
+    display: block;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+.searchForm input[type="text"] {
+    width: 15rem;
+}
+
+.searchForm label {
+    display: inline-block;
+}
+
+.button {
+    border: 2px solid var(--main);
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 120px;
+    padding: 7px 10px;
+    margin: 10px 0;
+    background: transparent;
+    color: var(--main);
+}
